@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		if (SwipeManager.Instance.IsSwiping (SwipeDirection.Up)) 
 		{
-			GetComponent<Rigidbody> ().AddForce(Vector3.up * 400);
+			GetComponent<Rigidbody> ().AddForce(Vector3.up * 460);
 		}
         Rigidbody body = GetComponent<Rigidbody>();
         

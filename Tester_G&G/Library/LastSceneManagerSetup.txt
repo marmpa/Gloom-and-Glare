@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TestG&G_lvl12.unity
+- path: Assets/TestG&G_lvl21.unity
   isLoaded: 1
   isActive: 1
