@@ -72,7 +72,7 @@ public class SwipeManager : MonoBehaviour
             {
 
             }
-            touchPosition = touch.position;
+            //touchPosition = touch.position;
 
             
         }
