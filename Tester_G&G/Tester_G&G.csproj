@@ -274,6 +274,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="TextMeshPro-2017.2-1.0.56-Editor">
+      <HintPath>Assets/Platforms/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.2-1.0.56-Runtime">
+      <HintPath>Assets/Platforms/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/Marios/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -294,12 +300,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Marios/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="TextMeshPro-2017.2-1.0.56-Runtime">
-      <HintPath>Assets/Platforms/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="TextMeshPro-2017.2-1.0.56-Editor">
-      <HintPath>Assets/Platforms/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.2-1.0.56-Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -341,9 +341,9 @@
     <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\Player\Follow.cs" />
-    <Compile Include="Assets\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Player\SwipeManager.cs" />
+    <Compile Include="Assets\Player\Scripts\Follow.cs" />
+    <Compile Include="Assets\Player\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Player\Scripts\SwipeManager.cs" />
     <Compile Include="Assets\Scenes\Menus\LevelsMenu.cs" />
     <Compile Include="Assets\Scenes\Menus\MainMenu.cs" />
     <Compile Include="Assets\Scenes\Menus\PauseMenu.cs" />
