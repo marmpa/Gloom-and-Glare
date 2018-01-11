@@ -34,7 +34,7 @@ public class SwipeManager : MonoBehaviour
 		instance = this;
 	}
 
-	void Update () 
+	void fUpdate () 
 	{
 		Direction = SwipeDirection.None;
 
@@ -61,5 +61,43 @@ public class SwipeManager : MonoBehaviour
 		}
 
 	}
+
+    void Update()
+    {
+        Direction = SwipeDirection.None;
+
+        foreach(Touch touch in Input.touches)
+        {
+            if(touch.phase == TouchPhase.Began)
+            {
+
+            }
+            touchPosition = touch.position;
+
+            
+        }
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            touchPosition = Input.mousePosition;
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            Vector2 deltaSwipe = touchPosition - Input.mousePosition;
+
+            if (Mathf.Abs(deltaSwipe.x) > swipeResistanceX)
+            {
+                //Κάνω swipe στο X axis
+                Direction |= (deltaSwipe.x < 0) ? SwipeDirection.Right : SwipeDirection.Left;
+            }
+
+            if (Mathf.Abs(deltaSwipe.y) > swipeResistanceY)
+            {
+                //Κάνω swipe στο Υ axis
+                Direction |= (deltaSwipe.y < 0) ? SwipeDirection.Up : SwipeDirection.Down;
+            }
+        }
+    }
 }
 									

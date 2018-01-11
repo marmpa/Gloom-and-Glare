@@ -13,23 +13,34 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (SwipeManager.Instance.IsSwiping (SwipeDirection.Up)) 
-		{
-			GetComponent<Rigidbody> ().AddForce(Vector3.up * 460);
-		}
+		
         Rigidbody body = GetComponent<Rigidbody>();
         
-        
-        
-            if(Input.GetMouseButton(0) && Input.mousePosition.x < Screen.width/2)
+        foreach(Touch touch in Input.touches)
+        {
+            if(touch.position.x < Screen.width/2)
             {
-                body.AddForce(Vector3.left *2);
-            Debug.Log("Hello");
-        }
-            else if(Input.GetMouseButton(0))
-            {
-                body.AddForce(Vector3.right *2);
+                body.AddForce(Vector3.left * 2);
             }
+            else
+            {
+                body.AddForce(Vector3.right * 2);
+            }
+
+            if (SwipeManager.Instance.IsSwiping(SwipeDirection.Up))
+            {
+                GetComponent<Rigidbody>().AddForce(Vector3.up * 460);
+            }
+        }
+        
+        //if(Input.GetMouseButton(0) && Input.mousePosition.x < Screen.width/2)
+        //{
+         //   body.AddForce(Vector3.left *2);
+        //}
+        //else if(Input.GetMouseButton(0))
+        //{
+         //   body.AddForce(Vector3.right *2);
+        //}
         
         
 
