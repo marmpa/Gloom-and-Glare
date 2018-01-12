@@ -9,9 +9,11 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody body;
     private Vector3 forceTouch;
     private Vector3 forceSwipe;
+    private int jumpForce;
     void Start()
     {
         body = GetComponent<Rigidbody>();
+        jumpForce = PlayerPrefs.GetInt("JumpHeight");
     }
 
     void Update()
@@ -33,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (SwipeManager.Instance.IsSwiping(SwipeDirection.Up))
         {
-            forceSwipe = (Vector3.up * 430);
+            forceSwipe = (Vector3.up * jumpForce);
         }
 
         if (Input.GetMouseButton(0) && Input.mousePosition.x < Screen.width / 2)
