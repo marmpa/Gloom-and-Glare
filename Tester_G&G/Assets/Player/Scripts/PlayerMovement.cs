@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 forceTouch;
     private Vector3 forceSwipe;
     private int jumpForce;
+    public bool fullR;
     void Start()
     {
         body = GetComponent<Rigidbody>();
