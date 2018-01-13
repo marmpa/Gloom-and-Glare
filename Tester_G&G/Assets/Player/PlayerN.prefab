@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 23259292562744284}
   - component: {fileID: 54046614018711410}
   - component: {fileID: 114342364097415764}
+  - component: {fileID: 122592285554605566}
+  - component: {fileID: 123904770974431244}
   m_Layer: 0
   m_Name: PlayerN
   m_TagString: Untagged
@@ -111,6 +113,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4746a9500df3b4b9cd079f6627ce6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fullR: 0
+--- !u!122 &122592285554605566
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244949388329390}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_Size: 0.55
+--- !u!123 &123904770974431244
+LensFlare:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244949388329390}
+  m_Enabled: 1
+  m_Flare: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Brightness: 1
+  m_FadeSpeed: 5
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 6
+  m_Directional: 0
 --- !u!135 &135823900319339374
 SphereCollider:
   m_ObjectHideFlags: 1

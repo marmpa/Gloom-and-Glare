@@ -353,6 +353,7 @@
     <Compile Include="Assets\Scenes\Menus\SettingsMenu.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Platforms\Sci-fi_platforms\Sci-fi_platforms.txt" />
     <None Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />

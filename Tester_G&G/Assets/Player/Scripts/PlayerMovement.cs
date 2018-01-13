@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody>();
-        jumpForce = PlayerPrefs.GetInt("JumpHeight");
+        jumpForce = PlayerPrefs.GetInt("JumpHeight",430);
     }
 
     void Update()
