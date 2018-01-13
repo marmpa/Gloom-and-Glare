@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ChangeJump.cs" />
+     <Compile Include="Assets\Enemies\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Platforms\Scripts\PlatformMovement.cs" />
      <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -84,6 +86,7 @@
      <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Player\Scripts\FeetCollition.cs" />
      <Compile Include="Assets\Player\Scripts\Follow.cs" />
      <Compile Include="Assets\Player\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Player\Scripts\SwipeManager.cs" />
@@ -103,6 +106,7 @@
      <None Include="Assets\Platforms\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Platforms\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+     <None Include="Assets\Platforms\Sci-fi_platforms\Sci-fi_platforms.txt" />
      <None Include="Assets\Platforms\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Platforms\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
