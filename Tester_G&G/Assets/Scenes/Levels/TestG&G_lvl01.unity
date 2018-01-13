@@ -259,93 +259,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4358022748892632, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4358022748892632, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4358022748892632, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 54365223391525252, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: InitialModule.randomizeRotationDirection
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54365223391525252, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.m_Dampen.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.collidesWithDynamic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.multiplyColliderForceByCollisionAngle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.collisionMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.m_EnergyLossOnCollision.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.minKillSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: CollisionModule.radiusScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 135903266650479862, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: m_Radius
-      value: 0.699324
-      objectReference: {fileID: 0}
-    - target: {fileID: 198493363508203060, guid: e583f48842fe25d41a55bae268dc3c6f,
-        type: 2}
-      propertyPath: randomSeed
-      value: 2013409270
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}
   m_IsPrefabParent: 0
@@ -1838,18 +1751,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1837579876901264, guid: e583f48842fe25d41a55bae268dc3c6f,
     type: 2}
   m_PrefabInternal: {fileID: 112985219}
---- !u!114 &2049045519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2049045518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb4746a9500df3b4b9cd079f6627ce6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fullR: 0
 --- !u!1 &2056620424 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: dde6e0ec75d76b04eb04cf5b2497ed16, type: 3}

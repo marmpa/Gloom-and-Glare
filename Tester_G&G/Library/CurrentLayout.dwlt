@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 108
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -453,13 +453,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Player/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Users\marmp\Documents\Texnologia Logismikou\Gloom-and-Glare\Tester_G&G
+  m_LastProjectPath: D:\Marios\Documents\Texnologia Logismikou\Gloom-and-Glare\Tester_G&G
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 12}
-    m_SelectedIDs: 622a0000
-    m_LastClickedID: 10850
-    m_ExpandedIDs: 000000009c280000a4280000ce2800007c290000f8290000c22a0000002c0000102c000000ca9a3bffffff7f
+    m_SelectedIDs: 4c2f0000
+    m_LastClickedID: 12108
+    m_ExpandedIDs: 000000007c2d0000862d0000b22d0000602e0000e02e0000b02f0000ec300000fc30000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,7 +487,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009c280000a4280000ce2800007c290000f8290000c22a0000002c0000102c0000
+    m_ExpandedIDs: 000000007c2d0000862d0000b22d0000602e0000e02e0000b02f0000ec300000fc300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -514,8 +514,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000462d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -607,7 +607,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: befaffff98fbffff00000000e42c0000c22d0000ca2d0000
+    m_ExpandedIDs: aaf5ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -626,7 +626,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - TestG&G_lvl21
+  - TestG&G_lvl01
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -663,9 +663,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 438.984, y: 163.72266, z: -135.79794}
+    m_Target: {x: 437.87573, y: 191.4032, z: -133.63254}
     speed: 2
-    m_Value: {x: 438.984, y: 163.72266, z: -135.79794}
+    m_Value: {x: 437.87573, y: 191.4032, z: -133.63254}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -693,9 +693,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.035910394, y: -0.067404844, z: 0.002427619, w: -0.9970764}
   m_Size:
-    m_Target: 24.37688
+    m_Target: 3.698976
     speed: 2
-    m_Value: 24.37688
+    m_Value: 3.698976
   m_Ortho:
     m_Target: 0
     speed: 2
