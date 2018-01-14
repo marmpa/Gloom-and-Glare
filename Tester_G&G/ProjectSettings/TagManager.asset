@@ -7,6 +7,8 @@ TagManager:
   - feet
   - end
   - enemy
+  - good
+  - evil
   layers:
   - Default
   - TransparentFX
