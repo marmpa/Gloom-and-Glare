@@ -29,5 +29,7 @@ public class FollowCamera : MonoBehaviour {
 
         timerText.SetText("Timer-> 0" + (int)minutes + ":" + (int)seconds);
 
+        
+
     }
 }

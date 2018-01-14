@@ -9,6 +9,7 @@ TagManager:
   - enemy
   - good
   - evil
+  - player
   layers:
   - Default
   - TransparentFX

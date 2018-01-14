@@ -68,13 +68,30 @@ public class SwipeManager : MonoBehaviour
 
         foreach(Touch touch in Input.touches)
         {
-            if(touch.phase == TouchPhase.Began)
-            {
+            //if(touch.phase == TouchPhase.Began)
+            //{
+            //    touchPosition = touch.position;
 
-            }
+            //}
+            //if (touch.phase == TouchPhase.Ended)
+            //{
+            //    Vector2 deltaSwipe = touchPosition - touch.position;
+
+            //    if (Mathf.Abs(deltaSwipe.x) > swipeResistanceX)
+            //    {
+            //        //Κάνω swipe στο X axis
+            //        Direction |= (deltaSwipe.x < 0) ? SwipeDirection.Right : SwipeDirection.Left;
+            //    }
+
+            //    if (Mathf.Abs(deltaSwipe.y) > swipeResistanceY)
+            //    {
+            //        //Κάνω swipe στο Υ axis
+            //        Direction |= (deltaSwipe.y < 0) ? SwipeDirection.Up : SwipeDirection.Down;
+            //    }
+            //}
             //touchPosition = touch.position;
 
-            
+
         }
 
         if(Input.GetMouseButtonDown(0))

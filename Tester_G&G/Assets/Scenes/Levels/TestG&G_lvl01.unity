@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.29899675, g: 0.25075144, b: 0.20416334, a: 1}
+  m_IndirectSpecularColor: {r: 0.29899752, g: 0.2507531, b: 0.20416611, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -637,8 +638,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 538976706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 373, y: 194.5, z: 0}
-  m_LocalScale: {x: 0.95229, y: 0.95229, z: 0.95229}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 592578864}
   - {fileID: 1208232661}
@@ -729,6 +730,16 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 934174892}
+    - target: {fileID: 54818876700816696, guid: f25a4e6b5f2cdd4459f7a9f42b824caa,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54818876700816696, guid: f25a4e6b5f2cdd4459f7a9f42b824caa,
+        type: 2}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f25a4e6b5f2cdd4459f7a9f42b824caa, type: 2}
   m_IsPrefabParent: 0
@@ -761,7 +772,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 880399809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7567749, y: -0.000015258789, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2613331, y: 1.2613331, z: 1.2613331}
   m_Children:
   - {fileID: 1290188934}
@@ -1017,7 +1028,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1148650536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 20, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 918150108}
@@ -1172,6 +1183,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 934174892}
+    - target: {fileID: 33176084084452854, guid: 1ea7a8bbc2ca6bd4fb30ec8c7f96aee2,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ea7a8bbc2ca6bd4fb30ec8c7f96aee2, type: 2}
   m_IsPrefabParent: 0
@@ -1206,7 +1222,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1290188933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 90, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1042493983}
@@ -1359,7 +1375,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1378095717}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -49.999996, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 11485241}
@@ -1700,7 +1716,7 @@ Prefab:
       objectReference: {fileID: 934174892}
     - target: {fileID: 1837579876901264, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}
       propertyPath: m_TagString
-      value: Untagged
+      value: player
       objectReference: {fileID: 0}
     - target: {fileID: 65599686489401914, guid: e583f48842fe25d41a55bae268dc3c6f,
         type: 2}
@@ -1743,6 +1759,10 @@ Prefab:
     - target: {fileID: 4358022748892632, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.039893296
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500292786120328, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}
+      propertyPath: m_TagString
+      value: player
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 65599686489401914, guid: e583f48842fe25d41a55bae268dc3c6f, type: 2}

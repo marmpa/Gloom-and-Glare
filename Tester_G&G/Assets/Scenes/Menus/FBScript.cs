@@ -58,11 +58,11 @@ public class FBScript : MonoBehaviour {
     public void FBLogin()
     {
         List<string> permissions = new List<string>();
-        permissions.Add("public_profile,email,publish_actions");
+        permissions.Add("public_profile");
         permissions.Add("email");
         permissions.Add("publish_actions");
 
-        FB.LogInWithReadPermissions(permissions, AuthCallBack);
+        FB.LogInWithPublishPermissions(permissions, AuthCallBack);
         
     }
 
@@ -74,6 +74,7 @@ public class FBScript : MonoBehaviour {
 
     public void QueryScores()
     {
+        SetScore();
         FB.API("/app/scores?fields=score,user.limit(30)", HttpMethod.GET, ScoresCallback);
     }
 
@@ -140,7 +141,7 @@ public class FBScript : MonoBehaviour {
     {
         var scoreData = new Dictionary<string, string>();
         scoreData["score"] = UnityEngine.Random.Range(10, 200).ToString();
-        FB.API("/me/scores", HttpMethod.POST, ScoreDCallBack, scoreData);
+        FB.API("/me/scores", HttpMethod.POST, delegate(IGraphResult result) { Debug.Log("score submitted succesfully"); }, scoreData);
     }
 
     

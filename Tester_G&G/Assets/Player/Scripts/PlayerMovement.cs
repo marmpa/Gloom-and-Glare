@@ -40,19 +40,23 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (SwipeManager.Instance.IsSwiping(SwipeDirection.Up))
-        {
-            forceSwipe = (Vector3.up * jumpForce);
-        }
 
-        if (Input.GetMouseButton(0) && Input.mousePosition.x < Screen.width / 2)
-        {
-            forceTouch = (Vector3.left * 2);
-        }
-        else if (Input.GetMouseButton(0))
-        {
-            forceTouch = (Vector3.right * 2);
-        }
+        
+            if (SwipeManager.Instance.IsSwiping(SwipeDirection.Up))
+            {
+                forceSwipe = (Vector3.up * jumpForce);
+            }
+
+            if (Input.GetMouseButton(0) && Input.mousePosition.x < Screen.width / 2)
+            {
+                forceTouch = (Vector3.left * 2);
+            }
+            else if (Input.GetMouseButton(0))
+            {
+                forceTouch = (Vector3.right * 2);
+            }
+        
+        
 
         VoidDeath();
         
@@ -62,21 +66,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (forceSwipe != Vector3.zero)
-        { 
-
-            body.velocity = new Vector3(body.velocity.x, 0, body.velocity.z);
-        }
+        
         body.AddForce(forceTouch);
-        body.AddForce(forceSwipe);
+        
     }
 
     void VoidDeath()
     {
-        Debug.Log(transform.localPosition.y);
+        //Debug.Log(transform.localPosition.y);
         if(transform.localPosition.y < -80)
         {
-            Debug.Log(SceneManager.GetActiveScene().buildIndex+" gies");
+            //Debug.Log(SceneManager.GetActiveScene().buildIndex+" gies");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(startLocationY-body.position.y>5)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
     }
