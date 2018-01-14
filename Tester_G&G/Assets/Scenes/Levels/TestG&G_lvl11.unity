@@ -440,7 +440,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1277,6 +1277,21 @@ Prefab:
     - target: {fileID: 4540285652488956, guid: 1ea7a8bbc2ca6bd4fb30ec8c7f96aee2, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114442108210211716, guid: 1ea7a8bbc2ca6bd4fb30ec8c7f96aee2,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114442108210211716, guid: 1ea7a8bbc2ca6bd4fb30ec8c7f96aee2,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 33176084084452854, guid: 1ea7a8bbc2ca6bd4fb30ec8c7f96aee2,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114580456529211094, guid: 1ea7a8bbc2ca6bd4fb30ec8c7f96aee2,
         type: 2}

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Enemies\Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\Platforms\Scripts\FollowCamera.cs" />
      <Compile Include="Assets\Platforms\Scripts\PlatformMovement.cs" />
      <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Platforms\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
